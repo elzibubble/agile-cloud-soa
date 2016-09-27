@@ -5,32 +5,137 @@
         <link rel="stylesheet" href="css/theme/moon.css">
         <!-- Code highlighting -->
         <link rel="stylesheet" href="lib/css/zenburn.css">
+        <style type='text/css'>
+.reveal section img {
+    border: none !important;
+}
+        </style>
     </head>
     <body>
         <div class="reveal">
             <div class="slides">
-                <section>
+                <section id='home'>
                     <h1>Cloud, SOA and Agile</h1>
                     <h2>Alexis Lee</h2>
                 </section>
-                <section>
+                <section id='home'>
                     <h2>Objectives</h2>
 
-                    <ol>
-                        <li>Who am I?</li>
-                        <li class='fragment'>What is cloud?</li>
-                        <li class='fragment'>What is SOA?</li>
-                        <li class='fragment'>How do we become Agile?</li>
-                    </ol>
+                    <h3 class='fragment'>1. Cloud</h3>
+                    <h3 class='fragment'>2. SOA</h3>
+                    <h3 class='fragment'>3. Agile</h3>
+
+                    <aside class="notes">
+                        Greet people, introduce yourself briefly.
+                        Talk through your credentials as you hit each point.
+                    </aside>
                 </section>
-                <section>
+                <section id='what-cloud'>
                     <h2>What is cloud?</h2>
+
+                    <ul>
+                        <li class='fragment'>SaaS - Google Apps, MS Office 365</li>
+                        <li class='fragment'>PaaS - Heroku, Elastic Beanstalk</li>
+                        <li class='fragment'>IaaS - computing, storage and networking</li>
+                        <li class='fragment'>Private cloud - hardware</li>
+                    </ul>
                 </section>
-                <section>
+                <section id='who-cloud'>
+                    <h2>Who's doing cloud?</h2>
+
+                    <img class='fragment' style='border: 1px solid white; height: 141px;' src='img/nasa-logo.svg'/>
+                    <img class='fragment' src='img/cern.png'/>
+                    <img class='fragment' src='img/bloomberg.jpg'/>
+                    <img class='fragment' src='img/ntt.png'/>
+                    <img class='fragment' src='img/amazon.jpg'/>
+                </section>
+                <section id='do-cloud'>
+                    <h2>Why do cloud?</h2>
+
+                    <ul>
+                        <li class='fragment'>Scalability</li>
+                        <li class='fragment'>Elasticity</li>
+                        <li class='fragment'>Resilience</li>
+                    </ul>
+
+                    <h2 style='margin-top: 1ex'><i>Convenience + Efficiency</i></h2>
+                </section>
+                <section id='not-cloud'>
+                    <h2>Why NOT do cloud?</h2>
+
+                    <ul>
+                        <li class='fragment'>Public cloud surcharge</li>
+                        <li class='fragment'>Resource isolation</li>
+                        <li class='fragment'>Data protection</li>
+                        <li class='fragment'>Performance</li>
+                    </ul>
+
+                    <h2 style='margin-top: 1ex'><i>Control + Guarantees</i></h2>
+                </section>
+                <section id='hybrid'>
+                    <h2>Hybrid cloud</h2>
+
+                    <img src='img/hybrid.png'/>
+                </section>
+                <section id='cloud-qas'>
+                    <h1>?</h1>
+                </section>
+                <section id='soa'>
                     <h2>What is SOA?</h2>
+
+                    <ul>
+                        <li class='fragment'>Service Oriented Architecture</li>
+                        <li class='fragment'>Distributed, not monolithic</li>
+                        <li class='fragment'>Scale out</li>
+                        <li class='fragment'>API oriented</li>
+                        <li class='fragment'>Messaging</li>
+                    </ul>
                 </section>
-                <section>
+                <section id='soa-arch'>
+                    <img src='img/soa.jpg'/>
+                </section>
+                <section id='cloud-apps'>
+                    <h2>Cloudy properties</h2>
+
+                    <ul>
+                        <li class='fragment'>Cattle, pets and pandas</li>
+                        <li class='fragment'>Bundle libraries</li>
+                        <li class='fragment'>Stateless
+                            <li class='fragment'>Disposability</li>
+                            <li class='fragment'>Scalability</li>
+                        </li>
+                        <li class='fragment'>Deployment orchestration</li>
+                        <li class='fragment' style='margin-top: 2ex'>12factor.net</li>
+                    </ul>
+                </section>
+                <section id='soa-qs'>
+                    <h1>?</h1>
+                </section>
+                <section id='agile'>
                     <h2>How do we become Agile?</h2>
+                    <h3 class='fragment'>The Agile manifesto</h3>
+
+                    <table class='fragment' style='color: #93a1a1'>
+                        <tr><td>People</td><td rowspan='4' style='vertical-align: middle; border: none;'>over</td><td>Processes</td></tr>
+                        <tr><td>Demos</td><td>Documentation</td></tr>
+                        <tr><td>Collaboration</td><td>Contracts</td></tr>
+                        <tr><td>Reactive</td><td>Prescriptive</td></tr>
+                    </table>
+                </section>
+                <section id='my-agile'>
+                    <h2>My experience</h2>
+
+                    <ul>
+                        <li class='fragment'>Test frequently - CI</li>
+                        <li class='fragment'>Release frequently - CD</li>
+                        <li class='fragment'>Deadline vs feature-list</li>
+                        <li class='fragment'>Hire and mentor talent</li>
+                        <li class='fragment'>Address risk early</li>
+                        <li class='fragment'>Morning scrum</li>
+                    </ul>
+                </section>
+                <section id='end'>
+                    <h1>THANK YOU!</h1>
                 </section>
             </div>
         </div>
